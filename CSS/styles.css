@@ -33,7 +33,7 @@ header {
 
 .nav-links a.active {
   color: #c3cac4;
-  background-color: #cce3de;
+  background-color: #a4c3b2;
 }
 
 .nav-links a:hover:not(.active) {
