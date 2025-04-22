@@ -62,13 +62,16 @@ header {
   max-width: 800px;
 }
 
-#hero h1 {
+#hero h2 {
   padding-left: 180px;
   font-size: 3rem;
   margin-bottom: 10px;
 }
-#hero picture {
-  align-items: ;
+
+#Plants {
+  padding-left: 180px;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 .menu-toggle {
   display: none;
