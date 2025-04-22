@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #9db3b3;
+}
+
+header {
+  margin: 0;
+  background-color: #647e76;
+  width: 100%;
+  padding: 0;
+  height: 50px !important;
+}
+.nav-links {
+  margin: 0;
+  background-color: #2a3e3a;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-links a {
+  margin: 0;
+  text-decoration: none;
+  color: #dee5e5;
+  padding: 10px;
+}
+
+.nav-links a.active {
+  color: #c3cac4;
+  background-color: #cce3de;
+}
+
+.nav-links a:hover:not(.active) {
+  background-color: #c3c4ca;
+  color: #dee5e5;
+}
+
+.nav-links a:visited {
+  color: #dee5e5;
+}
+
+#main {
+  margin-left: 0;
+  padding: 0;
+  background-image: url ("../Media/pictures/SimplySucculents.png");
+  width: 100%;
+  height: 100%;
+}
+#hero {
+  height: 100vh; /*Full viewport height*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #576961;
+  max-width: 800px;
+}
+
+#hero h1 {
+  padding-left: 180px;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.menu-toggle {
+  display: none;
+}
+
+footer {
+  margin: 0;
+  background-color: #b5bdb4;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#camping {
+  width: 500px;
+  height: 500px;
+}
+#bhours {
+  color: #2a3e3a;
+}
+
+#socials a {
+  text-decoration: none;
+}
+
+#insta {
+  width: 50px;
+  height: 50px;
+}
+
+#twitter {
+  width: 50px;
+  height: 50px;
+}
+
+table {
+  background-color: rgb(209, 237, 237);
+  border: 5px dotted rgb(7, 240, 201);
+}
+
+td {
+  color: rgb(7, 91, 108);
+}
+
+tr {
+  color: #2e0014;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #6aa6aa;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #leftsidebar {
+    width: 200px;
+    float: left;
+    background-color: #6b9080;
+    height: 100%;
+    height: 100vh;
+  }
+  #main {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #9dc5bb;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links a.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
