@@ -67,6 +67,9 @@ header {
   font-size: 3rem;
   margin-bottom: 10px;
 }
+#hero picture {
+  align-items: ;
+}
 .menu-toggle {
   display: none;
 }
