@@ -81,6 +81,20 @@ footer {
   align-items: center;
 }
 
+#wos {
+  color: white;
+  background-color: #6b9080;
+}
+
+#wos a {
+  text-decoration: none;
+}
+
+#wos a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 #camping {
   width: 500px;
   height: 500px;
