@@ -67,6 +67,7 @@ header {
   font-size: 3rem;
   margin-bottom: 10px;
 }
+
 .menu-toggle {
   display: none;
 }
@@ -91,6 +92,34 @@ footer {
 }
 
 #wos a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#mcg {
+  color: white;
+  background-color: #6b9080;
+}
+
+#mcg a {
+  text-decoration: none;
+}
+
+#mcg a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#leafpl {
+  color: white;
+  background-color: #6b9080;
+}
+
+#leafpl a {
+  text-decoration: none;
+}
+
+#leafpl a:visited {
   text-decoration: none;
   color: white;
 }
