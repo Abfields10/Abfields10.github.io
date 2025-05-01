@@ -220,11 +220,32 @@ tr {
 }
 
 img {
-  width: 600px;
-  height: 500px;
+  width: 50%;
+  height: auto;
 }
+
 #types {
-  #h2 {
-    border: #59603d;
-  }
+  margin-left: 0;
+  padding-left: 0;
+}
+#types h2 {
+  border: 2px solid #59603d;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#listOfIngredients {
+  padding-left: 5%;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
