@@ -6,80 +6,96 @@
     <title>Contact</title>
     <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico" />
     <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="menu-toggle">&#9776;</div>
-        <div class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="ExploreSucculents.html">Explore Succulents</a>
-          <a href="CareTips.html">Care Tips</a>
-          <a href="Contact.html"class="active">Contact Us</a>
-        </div>
-      </nav>
-    </header> 
-    <form action="thankyou.html"></form>
-    <br>
-    <br>
-    <h2>Customer Information</h2>
-    <table>
-      <tr>
-        <td>First Name:</td>
-        <td><input type="text" name="first_name" /></td>
-      </tr>
-      <tr>
-        <td>Last Name:</td>
-        <td><input type="text" name="last_name" /></td>
-      </tr>
-      <tr>
-        <td>Phone Number:</td>
-        <td><input type="text" name="phone_number" /></td>
-      </tr>
-      <tr>
-        <td>Email Address:</td>
-        <td><input type="text" name="street_address" /></td>
-      </tr>
-    </table>
-    <br>
-    <br>
-    <h2>Choose Your Succulent Type(s)/Genera</h2>
-        <input type="checkbox" value="Haworthia"><label>Haworthia</label>
-        <br/>
-        <input type="checkbox" value="Graptoveria"><label>Graptoveria</label>
-        <br/>
-        <input type="checkbox" value="Kalanchoe"><label>Kalanchoe</label>
-        <br>
-        <input type="checkbox" value="Cactus"><label>Cactus</label>
-        <br/>
-        <input type="checkbox" value="Senecio"><label>Senecio</label>
-        <br/>
-        <input type="checkbox" value="Sempervivum"><label>Sempervivum (Hens and Chicks)</label>
-        <br/>
-        <input type="checkbox" value="Sedum"><label>Sedum</label>
-        <br/>
-        <input type="checkbox" value="Echeveria"><label>Echeveria</label>
-        <br/>
-        <input type="checkbox" value="Euphorbia"><label>Euphorbia</label>
-        <br/>
-        <input type="checkbox" value="Crassula"><label>Crassula and Jade Plants</label>
-        <br/>
-        <input type="checkbox" value="Cotyledon"><label>Cotyledon</label>
-        <br/>
-        <br/>
+    <form action="thankyou.html">
+      <header>
+        <nav>
+          <div class="menu-toggle">&#9776;</div>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ExploreSucculents.html">Explore Succulents</a>
+            <a href="CareTips.html">Care Tips</a>
+            <a href="Contact.html" class="active">Contact Us</a>
+          </div>
+        </nav>
+      </header>
 
-        <!--Size should be radio buttons-->
-        <h2>Choose Your Succulent Size</h2>
-        <input type="radio" name="Size" value="single"><label for="single">Single 2" Pot</label>
-        <input type="radio" name="Size" value="Small_Arrangement"><label for="Small_Arrangement">Small Arrangement</label>
-        <input type="radio" name="Size" value="Medium_Arrangement"><label for="Medium_Arrangement">Medium Arrangement</label>
-        <br>
-        <br>
-        <h2>Message</h2>
-        <textarea rows="4" cols="40">Enter any questions or comments here!</textarea>
-        <br/>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+      <br />
+      <br />
+      <h2>Customer Information</h2>
+      <table>
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="first_name" /></td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td><input type="text" name="last_name" /></td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td><input type="text" name="phone_number" /></td>
+        </tr>
+        <tr>
+          <td>Email Address:</td>
+          <td><input type="text" name="street_address" /></td>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <h2>Choose Your Succulent Type(s)/Genera</h2>
+      <input type="checkbox" value="Haworthia" /><label>Haworthia</label>
+      <br />
+      <input type="checkbox" value="Graptoveria" /><label>Graptoveria</label>
+      <br />
+      <input type="checkbox" value="Kalanchoe" /><label>Kalanchoe</label>
+      <br />
+      <input type="checkbox" value="Cactus" /><label>Cactus</label>
+      <br />
+      <input type="checkbox" value="Senecio" /><label>Senecio</label>
+      <br />
+      <input type="checkbox" value="Sempervivum" /><label
+        >Sempervivum (Hens and Chicks)</label
+      >
+      <br />
+      <input type="checkbox" value="Sedum" /><label>Sedum</label>
+      <br />
+      <input type="checkbox" value="Echeveria" /><label>Echeveria</label>
+      <br />
+      <input type="checkbox" value="Euphorbia" /><label>Euphorbia</label>
+      <br />
+      <input type="checkbox" value="Crassula" /><label
+        >Crassula and Jade Plants</label
+      >
+      <br />
+      <input type="checkbox" value="Cotyledon" /><label>Cotyledon</label>
+      <br />
+      <br />
+
+      <!--Size should be radio buttons-->
+      <h2>Choose Your Succulent Size</h2>
+      <input type="radio" name="Size" value="single" /><label for="single"
+        >Single 2" Pot</label
+      >
+      <input type="radio" name="Size" value="Small_Arrangement" /><label
+        for="Small_Arrangement"
+        >Small Arrangement</label
+      >
+      <input type="radio" name="Size" value="Medium_Arrangement" /><label
+        for="Medium_Arrangement"
+        >Medium Arrangement</label
+      >
+      <br />
+      <br />
+      <h2>Message</h2>
+      <textarea rows="4" cols="40">
+Enter any questions or comments here!</textarea
+      >
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
     </form>
   </body>
 </html>
