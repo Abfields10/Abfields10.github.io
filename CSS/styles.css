@@ -158,8 +158,8 @@ footer {
 }
 
 table {
-  background-color: #a3ac9a;
-  border: 5px dotted #59603d;
+  background-color: #6b9080;
+  border: 5px dotted #f6fff8;
 }
 
 td {
@@ -167,7 +167,7 @@ td {
 }
 
 tr {
-  color: #2e0014;
+  color: #2b3322;
 }
 
 @media screen and (max-width: 768px) {
