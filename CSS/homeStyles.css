@@ -116,8 +116,10 @@ tr {
   color: #2e0014;
 }
 #Arrangement img {
-  width: 600px;
-  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 300px;
 }
 
 @media screen and (max-width: 768px) {
