@@ -117,6 +117,7 @@ tr {
 }
 #Arrangement img {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: 400px;
   height: 300px;
