@@ -88,6 +88,10 @@ footer {
 #wos {
   color: white;
   background-color: #6b9080;
+  font-size: x-large;
+  border-style: dotted;
+  border-width: 100%;
+  border-color: #f6fff8;
 }
 
 #wos a {
@@ -102,6 +106,10 @@ footer {
 #mcg {
   color: white;
   background-color: #6b9080;
+  font-size: x-large;
+  border-style: dotted;
+  border-width: 100%;
+  border-color: #f6fff8;
 }
 
 #mcg a {
@@ -116,6 +124,10 @@ footer {
 #leafpl {
   color: white;
   background-color: #6b9080;
+  font-size: x-large;
+  border-style: dotted;
+  border-width: 100%;
+  border-color: #f6fff8;
 }
 
 #leafpl a {
@@ -127,10 +139,6 @@ footer {
   color: white;
 }
 
-#camping {
-  width: 500px;
-  height: 500px;
-}
 #bhours {
   color: #2a3e3a;
 }
@@ -204,5 +212,19 @@ tr {
 
   .menu-toggle {
     display: block;
+  }
+}
+
+#Arrangement {
+  width: 500px;
+  height: 500px;
+}
+img {
+  width: 600px;
+  height: 500px;
+}
+#types {
+  #h2 {
+    border: #59603d;
   }
 }
