@@ -121,7 +121,7 @@ footer {
   color: white;
 }
 
-#leafpl {
+#sprucetyp {
   color: white;
   background-color: #6b9080;
   font-size: x-large;
@@ -130,11 +130,11 @@ footer {
   border-color: #f6fff8;
 }
 
-#leafpl a {
+#sprucetyp a {
   text-decoration: none;
 }
 
-#leafpl a:visited {
+#sprucetyp a:visited {
   text-decoration: none;
   color: white;
 }
