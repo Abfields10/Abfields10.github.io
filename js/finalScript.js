@@ -1,20 +1,14 @@
-const succulent = document.querySelector("#succulent");
-
-succulent.onclick = function () {
-  alert("You selected succulent!");
-};
-
 //variables
 const Genus = document.querySelector("#Genus");
 const heading = document.querySelector("#heading");
 const Species = document.querySelector("#Species");
 const fs = document.querySelector("#favsucculent");
 
-const checkbox = document.querySelectorAll("#form");
+const checkbox = document.querySelectorAll("#Form");
 
 //changeing the header text
-succulent.oninput = function () {
-  heading.innerText = "I love " + succulent.value;
+Genus.oninput = function () {
+  heading.innerText = "I love " + Genus.value;
 };
 
 //populate our fav team field
@@ -24,7 +18,11 @@ Species.oninput = function () {
 
 //alert when a checkbox is clicked
 checkbox[0].onclick = function () {
-  alert("Flowering was clicked!");
+  if (heading.innerHTML === "I love Echeveria") {
+    alert("Flowering was clicked but you also love Echeveria");
+  } else {
+    alert("Flowering was clicked!");
+  }
 };
 checkbox[1].onclick = function () {
   alert("Hanging was clicked!");
